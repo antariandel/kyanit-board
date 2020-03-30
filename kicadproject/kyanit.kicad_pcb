@@ -279,7 +279,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Misc/ESP8266.3dshapes/ESP-12F.wrl
+    (model ${KIPRJMOD}/ESP8266.3dshapes/ESP-12F.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 -90))
@@ -474,7 +474,7 @@
       (net 15 /D_IN_1))
     (pad 3 smd rect (at 2.45 -1.6 300) (size 1.5 1) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/Misc/Misc.3dshapes/User Library-ws2812B-1.WRL"
+    (model ${KIPRJMOD}/Misc.3dshapes/WS2812B.wrl
       (offset (xyz 0 0 0.75))
       (scale (xyz 400 400 400))
       (rotate (xyz 0 0 0))
@@ -520,7 +520,7 @@
       (net 13 /D_IN_2))
     (pad 3 smd rect (at 2.45 -1.6 60) (size 1.5 1) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/Misc/Misc.3dshapes/User Library-ws2812B-1.WRL"
+    (model ${KIPRJMOD}/Misc.3dshapes/WS2812B.wrl
       (offset (xyz 0 0 0.75))
       (scale (xyz 400 400 400))
       (rotate (xyz 0 0 0))
@@ -566,7 +566,7 @@
       (net 11 /D_IN_0))
     (pad 3 smd rect (at 2.45 -1.6 180) (size 1.5 1) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/Misc/Misc.3dshapes/User Library-ws2812B-1.WRL"
+    (model ${KIPRJMOD}/Misc.3dshapes/WS2812B.wrl
       (offset (xyz 0 0 0.75))
       (scale (xyz 400 400 400))
       (rotate (xyz 0 0 0))
@@ -1501,7 +1501,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/Misc/Misc.3dshapes/Fuse Littelfuse 1206L150THWR.stp"
+    (model "${KIPRJMOD}/Misc.3dshapes/Fuse 1206.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1542,7 +1542,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/Misc/Misc.3dshapes/Fuse Littelfuse 1206L150THWR.stp"
+    (model "${KIPRJMOD}/Misc.3dshapes/Fuse 1206.stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
