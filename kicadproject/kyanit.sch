@@ -761,7 +761,7 @@ USBP_Dp
 Text GLabel 2350 9500 0    50   BiDi ~ 0
 USBP_Dn
 Text GLabel 8800 2000 0    50   Input ~ 0
-ESP_nRTS
+ESP_nRST
 Wire Wire Line
 	9200 2450 9200 3500
 Text GLabel 7700 9150 0    50   Output ~ 0
@@ -769,21 +769,21 @@ MISO
 Text GLabel 7700 9250 0    50   Input ~ 0
 MOSI
 Text GLabel 7700 9350 0    50   Input ~ 0
-CS0
+CS
 Text GLabel 7700 9450 0    50   Input ~ 0
 SCLK
 Text GLabel 7700 9550 0    50   BiDi ~ 0
-D5
+GPIO13
 Text GLabel 8450 9150 2    50   BiDi ~ 0
-D0
+GPIO16
 Text GLabel 8450 9250 2    50   BiDi ~ 0
-D1
+GPIO5
 Text GLabel 8450 9350 2    50   BiDi ~ 0
-D2
+GPIO9
 Text GLabel 8450 9450 2    50   BiDi ~ 0
-D3
+GPIO10
 Text GLabel 8450 9550 2    50   BiDi ~ 0
-D4
+GPIO12
 $Comp
 L power:GND #PWR014
 U 1 1 5E6AD857
@@ -870,13 +870,13 @@ $EndComp
 Wire Wire Line
 	11200 1250 11200 1400
 Text GLabel 8800 2600 0    50   Output ~ 0
-CS0
+CS
 Text GLabel 8800 2700 0    50   Input ~ 0
 MISO
 Text GLabel 8800 2800 0    50   BiDi ~ 0
-D2
+GPIO9
 Text GLabel 8800 2900 0    50   BiDi ~ 0
-D3
+GPIO10
 Text GLabel 8800 3000 0    50   Output ~ 0
 MOSI
 Text GLabel 8800 3100 0    50   Output ~ 0
@@ -894,13 +894,13 @@ Wire Wire Line
 Wire Wire Line
 	8800 3100 10600 3100
 Text GLabel 13550 2700 2    50   BiDi ~ 0
-D5
+GPIO13
 Text GLabel 13550 2600 2    50   BiDi ~ 0
-D4
+GPIO12
 Text GLabel 13550 2500 2    50   BiDi ~ 0
-D1
+GPIO5
 Text GLabel 13550 3000 2    50   BiDi ~ 0
-D0
+GPIO16
 Wire Wire Line
 	11800 2400 13550 2400
 Wire Wire Line
@@ -983,7 +983,7 @@ Wire Wire Line
 Wire Wire Line
 	11800 2100 13550 2100
 Text GLabel 13650 8650 0    50   Output ~ 0
-ESP_nRTS
+ESP_nRST
 Wire Wire Line
 	13650 8650 13750 8650
 Wire Wire Line
@@ -1024,7 +1024,7 @@ L Device:Fuse_Small F1
 U 1 1 5E4ED51A
 P 5000 1850
 F 0 "F1" V 4954 1898 50  0000 L CNN
-F 1 "200mA" V 5045 1898 50  0000 L CNN
+F 1 "500mA" V 5045 1898 50  0000 L CNN
 F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 1850 50  0001 C CNN
 F 3 "~" H 5000 1850 50  0001 C CNN
 	1    5000 1850
@@ -1035,7 +1035,7 @@ L Device:Fuse_Small F2
 U 1 1 5E508AA0
 P 9650 8850
 F 0 "F2" H 9650 9035 50  0000 C CNN
-F 1 "1A" H 9650 8944 50  0000 C CNN
+F 1 "500mA" H 9650 8944 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9650 8850 50  0001 C CNN
 F 3 "~" H 9650 8850 50  0001 C CNN
 	1    9650 8850
