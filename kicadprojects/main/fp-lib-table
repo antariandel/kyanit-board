@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name main)(type KiCad)(uri D:/Development/KYANIT/kyanit_git/kyanit-board/kicadprojects/main)(options "")(descr ""))
+)
